@@ -16,6 +16,14 @@ p:hover{
     padding-right: 300px;
     padding-left: 300px;
 }
+.cp1{
+    text-align: justify;
+    padding-right: 200px;
+    padding-left: 180px;
+}
+.cp2{
+    padding-left: 300px;
+}
 .cdiv{
     text-align: center;
     padding-right: 70px;
