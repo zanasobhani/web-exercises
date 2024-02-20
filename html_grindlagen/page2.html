@@ -11,11 +11,11 @@
 
 <br>
 
-<h1 class="cp" >Who is boss??
-    <img  src="cat_icon.png" alt="cat_icon" width="60" height="40">
+<h1 class="cp2">Who is boss??
+    <img src="cat_icon.png" alt="cat_icon" width="60" height="40">
 
-    <a href="https://www.google.com"  class="cp2" target="_blank">
-        <img  src="search.png"   width="60" height="40">
+    <a href="https://www.google.com" class="cp2" target="_blank">
+        <img src="search.png" width="60" height="40">
     </a>
 
 </h1>
@@ -36,7 +36,85 @@
     fill out the below form.
 </p>
 <p id="s">
-    We will be back very soon!
+   Registration Form
 </p>
+
+<form class="cdiv">
+    <fieldset>
+        <br>
+        <div>
+            <label for="firstname">
+                First Name:
+            </label>
+            <input id="firstname" type="text">
+
+            <label for="familyname">
+                Family Name:
+            </label>
+            <input id="familyname" type="text">
+
+            <label for="email">
+                Email:
+            </label>
+            <input id="email" type="text">
+
+        </div>
+        <br>
+
+        <div>
+            <label for="phonenumber">
+                Phone Number:
+            </label>
+            <input id="phonenumber" type="text">
+
+            <label for="gender">
+                Gender:
+            </label>
+            <input list="gender">
+            <datalist id="gender">
+                <option value="Male">
+                <option value="Female">
+                <option value="No gender">
+            </datalist>
+            <label for="birthdate">
+                Date of Birth:
+            </label>
+            <input id="birthdate" type="Date">
+        </div>
+
+        <br>
+        <div>
+            <label for="hc">
+                Highest Certification:
+            </label>
+            <select id="hc">
+                <option value="highschool">High School</option>
+                <option value="uni">University</option>
+                <option value="others">others</option>
+            </select>
+
+
+            <label for="address">
+                Address(Optional):
+            </label>
+
+            <textarea id="address" name="address">
+
+        </textarea>
+            <label for="password">
+                Password:
+            </label>
+            <input id="password" type="password">
+        </div>
+        <br>
+        <br>
+        <label for="submit">
+            Submit:
+        </label>
+        <input id="submit" type="submit">
+
+        <br>
+    </fieldset>
+</form>
 </body>
 </html>
