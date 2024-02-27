@@ -50,8 +50,8 @@ p:hover{
 
 }
 
-th, td { !important;
-    border-bottom: 1px solid #ddd;
+th, td {
+    border-bottom: 1px solid #ddd !important;
     text-align: center;
 }
 a{
@@ -76,4 +76,16 @@ h1.next{
     text-align: center;
     font-weight: bold;
     color: #AB2390;
+}
+div ~ p {
+    color: black;
+}
+p > p
+{
+color: blue;
+}
+
+p + h3
+{
+    font-style: italic;
 }
