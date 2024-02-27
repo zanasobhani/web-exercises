@@ -1,50 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
+
 <head>
-    <title>Page Title</title>
+    <title>Cats Home</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="myCss.css">
 </head>
+
 <body>
 
+<br>
 
-<h1>This is our website Page 2</h1>
-<h2>you can find whatever you want about computer science</h2>
-<p>This is a paragraph.</p>
-<b>This text is bold</b>
+<h1 class="cp2">Who is boss??
+    <img src="cat_icon.png" alt="cat_icon" width="60" height="40">
 
-<p><i>that would our thout</i> is the most popular filler text in history.</p>
+    <a href="https://www.google.com" class="cp2" target="_blank">
+        <img src="search.png" width="60" height="40">
+    </a>
 
-<p>The <i>Coders bay</i> the best school in the world</p>
+</h1>
 
-<a href=https://www.google.com/" target="_blank">First company</a>
+<div class="cdiv">
+    <img src="1.jpg" alt="Girl in a jacket" width="230" height="150">
+    <img src="2.jpg" alt="Girl in a jacket" width="200" height="150">
+    <img src="3.jpg" alt="Girl in a jacket" width="200" height="150">
+</div>
 
-<ul>
-    <li>Mehdi</li>
-    <li>Alex</li>
-    <li>Nikals</li>
-</ul>
+<h1 class="next">
+    Volunteer registration to care of cats
+</h1>
 
-<ol>
-    <li>Programming</li>
-    <li>DataBase</li>
-    <li>Webservices</li>
-</ol>
+<p id="pn">
+    We have a plan to care stray cats all over the world.To achieve this
+    ,this page is building very soon.If you think you can contribute our goal,please
+    fill out the below form.
+</p>
+<p id="s">
+   Registration Form
+</p>
 
-<table>
-    <tr>
-        <th>Microsoft</th>
-        <th>Hp</th>
-        <th>IBM</th>
-    </tr>
-    <tr>
-        <td>Google</td>
-        <td>Amazon</td>
-        <td>Facebook</td>
-    </tr>
-    <tr>
-        <td>Iran</td>
-        <td>USA</td>
-        <td>Mexico</td>
-    </tr>
-</table>
+<form class="cdiv">
+    <fieldset>
+        <br>
+        <div>
+            <label for="firstname">
+                First Name:
+            </label>
+            <input id="firstname" type="text">
+
+            <label for="familyname">
+                Family Name:
+            </label>
+            <input id="familyname" type="text">
+
+            <label for="email">
+                Email:
+            </label>
+            <input id="email" type="text">
+
+        </div>
+        <br>
+
+        <div>
+            <label for="phonenumber">
+                Phone Number:
+            </label>
+            <input id="phonenumber" type="text">
+
+            <label for="gender">
+                Gender:
+            </label>
+            <input list="gender">
+            <datalist id="gender">
+                <option value="Male">
+                <option value="Female">
+                <option value="No gender">
+            </datalist>
+            <label for="birthdate">
+                Date of Birth:
+            </label>
+            <input id="birthdate" type="Date">
+        </div>
+
+        <br>
+        <div>
+            <label for="hc">
+                Highest Certification:
+            </label>
+            <select id="hc">
+                <option value="highschool">High School</option>
+                <option value="uni">University</option>
+                <option value="others">others</option>
+            </select>
+
+
+            <label for="address">
+                Address(Optional):
+            </label>
+
+            <textarea id="address" name="address">
+
+        </textarea>
+            <label for="password">
+                Password:
+            </label>
+            <input id="password" type="password">
+        </div>
+        <br>
+        <br>
+        <label for="submit">
+            Submit:
+        </label>
+        <input id="submit" type="submit">
+
+        <br>
+    </fieldset>
+</form>
 </body>
 </html>
