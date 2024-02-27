@@ -1,4 +1,12 @@
+<<<<<<< HEAD
+#imgposition
+{
+    position: absolute;
+    left: 900px;
+}
+=======
 
+>>>>>>> f6135f46a5c01158d0fe9fc0d523f3fdace6b045
 td::first-letter {
 
     font-weight: bold;
@@ -18,6 +26,8 @@ p:hover {
     padding-left: 300px;
 }
 
+<<<<<<< HEAD
+=======
 .cp1 {
     text-align: justify;
     padding-right: 200px;
@@ -28,6 +38,7 @@ p:hover {
     padding-left: 305px;
 }
 
+>>>>>>> f6135f46a5c01158d0fe9fc0d523f3fdace6b045
 .cdiv {
     text-align: center;
     padding-right: 70px;
@@ -85,4 +96,101 @@ h1.next {
     text-align: center;
     font-weight: bold;
     color: #AB2390;
+}
+
+.sizesection {
+    width: 200px;
+    background: #AB2390;
+}
+
+.changeinline {
+    display: inline-block;
+}
+
+
+.changeposition {
+    position: absolute;
+    top: 380px;
+    left: 430px;
+    width: 410px;
+    height: 410px;
+    box-sizing: border-box;
+    border: 2px white solid;
+
+}
+
+.changeindex {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+}
+
+.picture1 {
+    background-image: url("11.png");
+    background-size: 196px 196px;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-right: 4px;
+
+}
+
+.picture2 {
+    position: absolute;
+    background-image: url("13.png");
+    background-size: 196px 196px;
+    width: 200px;
+    height: 200px;
+    left: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-bottom: 4px;
+
+
+}
+
+.picture3 {
+    background-image: url("12.png");
+    background-size: 196px 196px;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+
+}
+
+.picture4 {
+    position: absolute;
+    background-image: url("15.png");
+    background-size: 196px 196px;
+    width: 200px;
+    height: 200px;
+    left: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-left: 4px;
+
+
+}
+
+.picture5 {
+    position: absolute;
+    background-image: url("14.png");
+    background-size: 196px 196px;
+    width: 200px;
+    height: 200px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: 4px white solid;
+
+
 }
