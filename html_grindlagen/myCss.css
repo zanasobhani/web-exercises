@@ -16,14 +16,6 @@ p:hover{
     padding-right: 300px;
     padding-left: 300px;
 }
-.cp1{
-    text-align: justify;
-    padding-right: 200px;
-    padding-left: 180px;
-}
-.cp2{
-    padding-left: 300px;
-}
 .cdiv{
     text-align: center;
     padding-right: 70px;
@@ -50,8 +42,8 @@ p:hover{
 
 }
 
-th, td {
-    border-bottom: 1px solid #ddd !important;
+th, td { !important;
+    border-bottom: 1px solid #ddd;
     text-align: center;
 }
 a{
@@ -76,16 +68,4 @@ h1.next{
     text-align: center;
     font-weight: bold;
     color: #AB2390;
-}
-div ~ p {
-    color: black;
-}
-p > p
-{
-color: blue;
-}
-
-p + h3
-{
-    font-style: italic;
 }
